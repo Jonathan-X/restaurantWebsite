@@ -13,7 +13,7 @@ div.navigation {
   text-align:center;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
-p.bodytext {
+p.mainbodytext {
   font-family: "Comic Sans MS", cursive, sans-serif;
   margin: auto;
   text-align:center;
@@ -21,6 +21,14 @@ p.bodytext {
   padding:25px;
   width: 400px;
   height: 200=0px;}
+p.bodytext {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: auto;
+  text-align:center;
+  border: 3px solid brown;
+  padding:25px;
+  width: 300px;
+  height: 150=0px;}
 p.footer {
   font-family: "Comic Sans MS", cursive, sans-serif;
   text-align:center;
