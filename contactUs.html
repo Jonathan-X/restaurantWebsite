@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JimBob's Cookie Emporium</title>
+</head>
+<body>
+	<style>
+			body {
+					background-color: tan;
+			}
+			h1 {
+					text-align:center;
+					font-family: "Comic Sans MS", cursive, sans-serif;}
+			h2 {text-align:center;
+					font-family: "Comic Sans MS", cursive, sans-serif;}
+			div.navigation {
+					margin:auto;
+					text-align:center;
+					font-family: "Comic Sans MS", cursive, sans-serif;
+			}
+			p.bodytext {
+					font-family: "Comic Sans MS", cursive, sans-serif;
+					margin: auto;
+					text-align:center;
+					border: 3px solid brown;
+					padding:25px;
+					width: 400px;
+					height: 200=0px;}
+			p.footer {
+					font-family: "Comic Sans MS", cursive, sans-serif;
+					text-align:center;
+					margin:auto;
+			}
+			img {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 450px;
+					height: 250px;
+					border: 3px solid brown;
+			}
+			</style>
+	<div id="title">
+    	<h1>Contact Us</h1>
+    	</div>
+    	<div id="navigation" class="navigation">
+    	<hr />
+    	<p>
+    		<a href="index.html">Main Page</a>
+				<a href="contactUs.html">Contact Us</a>
+    		<a href="menu.html">Menu</a>
+    	</p>
+    	<hr />
+    	</div>
+    <h2>Information Request</h2>
+        <form action="submit.htnml" method="POST">
+            <label for="Name">Name:</label><br />
+            <input type="text" id="Name" name="Name"><br />
+            <label for="email">Email:</label><br />
+            <input type="text" id="email" name="email"><br />
+            <label for="phone">Phone Number:</label><br />
+            <input type="text"id="phone" name="phone"><br />
+            <label for="contact">Reason for inquiry:</label><br />
+            <select id="contact" name="contact">
+                <option value="default" selected>Catering</option>
+                <option value="privateparty">Private party</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select>
+						<label for="info">Additional Information</label><br />
+            <textarea id="info"></textarea><br />
+            <input type="submit" name="submit" value="Submit">
+            <fieldset>
+            <legend>Have you been to this restaurant before?:</legend><br />
+            <input type="radio" id="choice1" name="questionnaire" value="yes">
+            <label for="choice1">Yes</label><br />
+            <input type="radio" id="choice2" name="questionnaire" value="no">
+            <label for="choice2">No</label><br />
+            </fieldset>
+						<fieldset>
+            <legend>Best days to contact you:</legend><br />
+            <input type="checkbox" id="monday" name="interest" value="monday">
+            <label for="monday">M</label>         <br />
+            <input type="checkbox" id="tuesday" name="interest" value="tuesday">
+            <label for="tuesday">T</label><br />
+            <input type="checkbox" id="wednesday" name="interest" value="wednesday">
+            <label for="wednesday">W</label><br />
+						<input type="checkbox" id="thursday" name="interest" value="thursday">
+            <label for="thursday">Th</label><br />
+						<input type="checkbox" id="friday" name="interest" value="friday">
+            <label for="friday">F</label><br />
+            </fieldset>
+
+        </form>
+				<div id="footer">
+				<hr />
+					<footer>
+						<p class="footer">21-21 13th Street, Wichita, KS, 16816<br>(111) 153-5315</p>
+					</footer>
+				</div>
+</body>
+</html>
